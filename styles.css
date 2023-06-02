@@ -1,0 +1,7 @@
+body{width: 80%; margin:auto;padding-top: 100px;}
+a{text-decoration: none;}
+a:link{color:blue;}
+a:visited{color:blue;}
+a #home_link{color: darkred;}
+center{text-align: center;}
+code{font-family: Courier New;}
