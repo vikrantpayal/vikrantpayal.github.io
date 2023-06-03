@@ -1,7 +1,9 @@
-body{font-size: large; width: 60%; margin:auto;padding-top: 100px;}
+body{text-align:justify;font-size: large; width: 60%; margin:auto;padding-top: 100px;}
+article{margin:20px;}
 a{text-decoration: none;}
 a:link{color:blue;}
 a:visited{color:blue;}
 a #home_link{color: darkred;}
 center{text-align: center;}
 code{font-family: Courier New;}
+gray{color:lightgray;}
