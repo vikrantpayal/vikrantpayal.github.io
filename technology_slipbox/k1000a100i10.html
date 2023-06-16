@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vikrant</title>
+    <link rel="stylesheet" href="../styles.css">
+
+<div style="display:flex;">
+     <b><a href="../index.html" id="home_link">Home</a></b>
+     <div style="margin-left:60%">
+     <a href="technology_slipbox.html#kubernetes">The tech slipbox</a> &nbsp;&nbsp;
+     <a href="technology_landscape.html">Tech landscape</a>
+     </div>
+ </div>
+
+
+
+
+<hr>
+</head>
+<body>
+<br><br>
+<article>
+<b>Commands to fetch information, list things, find status</b>
+<!-- content -->
+<br><br><br><br>
+To find out the current K8s context:<br>
+<code> kubectl config current-context</code>
+<br><br>
+What is the version of K8s?<br>
+<code>kubectl version</code>
+<br><br>
+How can I list all available commands and their shortnames?<br>
+<code>kubectl api-resources</code>
+<br><br>
+How do I get a detailed description of any resource?<br>
+<code>kubectl describe &lt; resource-name &gt; </code>
+<br>- - this works on pods, services, events. 
+<br>- - Here's <a href="https://www.airplane.dev/blog/using-kubectl-describe" target="_blank">
+a good blog </a>
+on the various ways 
+<code>kubectl describe</code> can be used.
+<br>- - <code>kubectl get</code> is the <a href="https://translate.google.com/?sl=hi&tl=en&text=%E0%A4%9B%E0%A5%8B%E0%A4%9F%E0%A4%BE%20%E0%A4%AD%E0%A4%BE%E0%A4%88%20&op=translate" target="_blank">chota bhai</a>
+ of <code>kubectle describe</code>
+<br><br>
+
+How do I filter objects by some search term while using <code>describe</code> or <code>get</code>?<br>
+<code>kubectl describe pods | grep -C 10 "author=John Doe"</code><br>
+<code>kubectl get pods -o yaml | grep -C 5 labels:</code><br>
+<br><br>
+How can I get help on any command?<br>
+<code>kubectl create --help</code>
+<br><br>
+</article>
+<br><br><br><br><br>
+<small>The views expressed on this website are personal and do not represent the opinion of the author's employer/parent company. Links to third party web sites may be shared on this page. Those sites are unaffiliated with the employer. The employer has not been involved in the preparation of the content supplied at the unaffiliated site and does not guarantee or assume any responsibility for its content.</small>
+<br><br><br></body>
+</html>
