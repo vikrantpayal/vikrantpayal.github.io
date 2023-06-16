@@ -20,14 +20,22 @@
 <body>
 <br><br>
 <article>
+<small>
+  <a href="technology_slipbox.html">tech slipbox</a>/<a href="technology_slipbox.html#kubernetes">kubernetes</a>/config<br>
+</small>
 <b>Context related commands</b>
 <!-- content -->
 <br><br><br><br>
 To find out the current K8s context:<br>
-<code> kubectl config current-context</code>
+<code> kubectl config current-context</code><br>
 <br><br>
+
 To set context:<br>
-<code> kubectl config set-context &lt; context-name &gt; --namespace= &lt; namespace-name &gt;</code>
+<code> kubectl config set-context &lt; context-name &gt; --namespace= &lt; namespace-name &gt;</code><br>
+<br><br>
+
+To switch context:<br>
+<code>kubectl config use-context &lt; context-name &gt;</code><br>
 <br><br>
 
 </article>

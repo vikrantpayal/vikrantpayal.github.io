@@ -13,30 +13,43 @@
  </div>
 
 
+
+
 <hr>
 </head>
 <body>
 <br><br>
-
-<small>
-<a href="technology_slipbox.html">tech slipbox</a>/
-<a href="technology_slipbox.html#kubernetes">kubernetes</a>/
-certification<br>
-</small>
-<b>Kubernetes Certifications / CKA prep notes </b>
-<br><br>
 <article>
+<small><a href="technology_slipbox.html">tech slipbox</a>/<a href="technology_slipbox.html#kubernetes">kubernetes</a>/config</small><br>
+<b>Role based access control</b>
 <!-- content -->
-Notes from CKA prep.. <br>
-<code>kubectl</code> command is important. Learn to use it. There is no access to the web dashboard UI. The exam is completely hands-on, no multiple choice questions. Other important things to learn, besides <code>kubectl</code> are <code>etcdctl</code> and <code>kubeadm</code>. 
 <br><br>
-YAML syntax knowledge is essential. Basic commands of vi and syntax of GNU Bash will be needed during the test.
-<br><br><br><br>
-Tips for the test:<br><br>
+The three main components when setting up RBAC in K8s are:<br>
 <ol>
-  <li>The bash autocomplete and kubectl alias are already configured for the test. </li>
-  <li>You are not required to create users (RBAC) during the test. Users are pre-configured</li>
+  <li>The subject: Groups or users or service accounts</li>
+  <li>The API resource : ConfigMap, Pod, Deployment, Node</li>
+  <li>The Operations : Create, List, Watch, Delete</li>
 </ol>
+<br><br>
+How do I create a service account?<br>
+<code>kubectl create serviceaccount &lt; service-account-name &gt;</code><br>
+<br><br>
+Here is the declarative way to do it.<br><code>
+apiVersion: v1<br>
+kind: ServiceAccount<br>
+metadata:<br>
+&nbsp; &nbsp; name: build-bot<br>
+</code><br>
+
+How do I get the details of any service account?<br>
+<code>kubectl describe serviceaccount &lt; service-account-name &gt; </code><br>
+<br><br>
+
+To list all service accounts<br>
+<code>kubectl get serviceaccounts</code><br>
+<br><br>
+
+
 <br><br><br><br>
 </article>
 <br><br><br><br><br>

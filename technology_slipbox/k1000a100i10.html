@@ -20,18 +20,24 @@
 <body>
 <br><br>
 <article>
+<small>
+<a href="technology_slipbox.html">tech slipbox</a>/<a href="technology_slipbox.html#kubernetes">kubernetes</a>/config<br>
+</small>
 <b>Commands to fetch information, list things, find status</b>
 <!-- content -->
 <br><br><br><br>
 To find out the current K8s context:<br>
-<code> kubectl config current-context</code>
+<code> kubectl config current-context</code><br>
 <br><br>
+
 What is the version of K8s?<br>
-<code>kubectl version</code>
+<code>kubectl version</code><br>
 <br><br>
+
 How can I list all available commands and their shortnames?<br>
-<code>kubectl api-resources</code>
+<code>kubectl api-resources</code><br>
 <br><br>
+
 How do I get a detailed description of any resource?<br>
 <code>kubectl describe &lt; resource-name &gt; </code>
 <br>- - this works on pods, services, events. 
@@ -40,16 +46,36 @@ a good blog </a>
 on the various ways 
 <code>kubectl describe</code> can be used.
 <br>- - <code>kubectl get</code> is the <a href="https://translate.google.com/?sl=hi&tl=en&text=%E0%A4%9B%E0%A5%8B%E0%A4%9F%E0%A4%BE%20%E0%A4%AD%E0%A4%BE%E0%A4%88%20&op=translate" target="_blank">chota bhai</a>
- of <code>kubectle describe</code>
+ of <code>kubectle describe</code><br>
+--For example, if you have a service account and you want to get all the details of it, use<br>
+<code>kubectl describe serviceaccount mysrvcaccntnam</code><br>
 <br><br>
 
 How do I filter objects by some search term while using <code>describe</code> or <code>get</code>?<br>
-<code>kubectl describe pods | grep -C 10 "author=John Doe"</code><br>
+<code>kubectl describe pods | grep -C 10 "author=vikrant payal"</code><br>
 <code>kubectl get pods -o yaml | grep -C 5 labels:</code><br>
 <br><br>
+
 How can I get help on any command?<br>
 <code>kubectl create --help</code>
 <br><br>
+
+
+How can I find out which fields are defined for a resource?<br>
+<code>kubectl explain &lt; resource-name &gt; </code><br>
+- - this command is better than <code> --help</code><br>
+<br><br>
+
+
+How can I get a list of all service accounts?<br>
+<code>kubectl get serviceaccounts</code><br>
+<br><br>
+
+To get secrets<br>
+<code>kubectl get secrets</code><br>
+<br><br>
+
+
 </article>
 <br><br><br><br><br>
 <small>The views expressed on this website are personal and do not represent the opinion of the author's employer/parent company. Links to third party web sites may be shared on this page. Those sites are unaffiliated with the employer. The employer has not been involved in the preparation of the content supplied at the unaffiliated site and does not guarantee or assume any responsibility for its content.</small>
