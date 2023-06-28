@@ -1,3 +1,4 @@
+head {position: fixed; top: 0px; color: red;}
 body{text-align:justify;font-size: large; width: 60%; margin:auto;padding-top: 100px;}
 article{margin:20px;}
 a{text-decoration: none;}
@@ -9,3 +10,5 @@ code{font-family: Courier New;}
 gray{color:lightgray;}
 .box{display:flex; flex-wrap: wrap;} /* used on home page for list of sub pages */
 .box_inner{padding:2em;}
+table, th, td{ border: 1px dotted black; }
+th, td {padding: 10px;}
