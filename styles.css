@@ -8,7 +8,7 @@ a #home_link{color: darkred;}
 center{text-align: center;}
 code{font-family: Courier New;}
 gray{color:lightgray;}
-.box{display:flex; flex-wrap: wrap;} /* used on home page for list of sub pages */
-.box_inner{padding:2em;}
+.box{display:flex; flex-wrap: wrap; padding: 20px;} /* used on home page for list of sub pages */
+.box_inner{padding:2em;overflow-wrap:break-word; width: 40%}
 table, th, td{ border: 1px dotted black; }
 th, td {padding: 10px;}
