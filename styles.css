@@ -1,5 +1,5 @@
-head {position: fixed; top: 0px; color: red;}
-body{text-align:justify;font-size: large; width: 60%; margin:auto;padding-top: 100px;}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:wght@400;600&display=swap');head {position: fixed; top: 0px; color: red;}
+body{font-family: 'Playfair Display', serif, Verdana, Arial; text-align:justify;font-size: large; width: 60%; margin:auto;padding-top: 100px;}
 article{margin:20px;}
 a{text-decoration: none;}
 a:link{color:blue;}
