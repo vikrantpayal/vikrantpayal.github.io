@@ -12,3 +12,7 @@ gray{color:lightgray;}
 .box_inner{padding:2em;overflow-wrap:break-word; width: 40%}
 table, th, td{ border: 1px dotted black; }
 th, td {padding: 10px;}
+.container{ display:flex;flex-direction:row;flex-wrap: wrap;justify-content:flex-start;align-items:flex-start;
+align-content:flex-start; gap: 10px 5px;}
+.item{order:5; flex-grow:4; padding: 20px; margin: 20px; width: 300px; 
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;}
