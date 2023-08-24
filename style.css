@@ -38,20 +38,27 @@ h2{
     color: white;
 }
 
-nav{
+.crumbs{
+    list-style:none;
     text-align: right;
-    font-size: 200%;
     width: 40%;
-    margin: auto;
+    margin:auto;
+}
+
+
+.crumb{
+    font-size: 400%;
 }
 
 
 footer{ 
+    margin:auto;
     color: darkgrey;
     font-style: italic;  
     position: absolute;
     bottom: 0;
     padding-right: 30%;
     padding-left: 30%;
-    text-align: right;
+    padding-bottom: 30px;
+    text-align: center;
 }
