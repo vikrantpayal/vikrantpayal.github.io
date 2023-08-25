@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:wght@400;600&display=swap');head {position: fixed; top: 0px; color: red;}
+body{font-family: 'Playfair Display', serif, Verdana, Arial; text-align:justify;font-size: large; width: 60%; margin:auto;padding-top: 100px;}
+article{margin:20px;}
+a{text-decoration: none;}
+a:link{color:blue;}
+a:visited{color:blue;}
+a #home_link{color: darkred;}
+center{text-align: center;}
+code{font-family: Courier New;}
+gray{color:lightgray;}
+.box{display:flex; flex-wrap: wrap; padding: 20px;} /* used on home page for list of sub pages */
+.box_inner{padding:2em;overflow-wrap:break-word; width: 40%}
+table, th, td{ border: 1px dotted black; }
+th, td {padding: 10px;}
+.container{ display:flex;flex-direction:row;flex-wrap: wrap;justify-content:flex-start;align-items:flex-start;
+align-content:flex-start; gap: 10px 5px;}
+.item{order:5; flex-grow:4; padding: 20px; margin: 20px; width: 300px; 
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;}
