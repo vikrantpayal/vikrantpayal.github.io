@@ -28,7 +28,11 @@ article{
 a{
     text-decoration-style: dotted;
     text-decoration-thickness: 1px;
+<<<<<<< HEAD
     text-decoration-color: blue;
+=======
+    text-decoration-color: darkgrey;
+>>>>>>> 59751522e2b39a5e698866104212c7a67861b7b3
     color: white;
 }
 
