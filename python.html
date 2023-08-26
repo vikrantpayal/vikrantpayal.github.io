@@ -13,19 +13,37 @@
 
 
 <article>
-<h2> Study of datatypes in Python </h2>
+<h2> Study of data structures in Python </h2>
 <p>
-I practiced Dictionary datatype as part of the AI MLOps course (IISc). Dict is key-value pair datatype. Python loves dynamic typing. So you can stuff anything in a Dict variable. 
-You declare a dictionary with curly braces. The content should be a key and value pairs separated by comma.
-
+Studied python data structures to some depth as part of the AI MLOps course at IISc. Python datatypes studied - list, dict, tuples, set, sequences.  
 </p>
-
 <br><br>
-<p>
 
-<code>
-capitals = {"India":"Delhi", "UK":"London"}	
-</code>
+<h3>Notes on Python's List sequence type</h3>
+Used for similar datatypes. Can add or remove items easily. 
+<ul>
+    <li>sort vs. sorted. <br>
+        sort is a method. It sorts the list (the original data structure).<br><br> 
+        <code>
+           t = ['b', 'k', 'a', 'z', 'e'] <br>
+           t.sort() <br>
+           print(t) <br>
+        </code>
+	<br>
+	The code above sorts the list 't' in place. The list is changed forever. Sorted is different. It is a function. It returns a sorted list. Here's an example.<br><br>
+
+       <code>
+          t1 = ['b', 'k', 'a', 'z', 'e'] <br>
+          t2 = sorted(t1) <br>
+          print(t2) <br>
+          print(t1) <br>
+       </code>
+       <br>
+       The list t1 in the above example remains unchanged. 
+    </li>
+    
+</ul>
+<p>
 
 </p>
 

@@ -26,7 +26,9 @@ article{
 }
 
 a{
-    text-decoration: none;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-decoration-color: blue;
     color: white;
 }
 
@@ -61,14 +63,7 @@ h3{
 }
 
 code{
-    width: 100%;
-    position: relative;
-    border-style: solid;
-    border-width: 1px;
-    border-color: darkgrey;
-    margin: auto;
-    padding-top: 100px;
-    padding: 30px;
-    font-family: 'Courier New';
-    background-color: black;
+    font-size: 110%;
+    color: #8cff0a;
 }
+
