@@ -40,6 +40,14 @@ h3{
     color: salmon;
 }
 
+small{
+    font-size: x-small;
+}
+
+footer{
+text-align:left;
+}
+
 .special{
     color: white;
 }
