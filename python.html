@@ -14,7 +14,7 @@
 
 <article>
 
-<h3> Python special features </h3>
+<span ><h3> Python special features </h3></span>
 <p>
 Thing I find interesting about Python.
 <ul>
@@ -63,20 +63,31 @@ Used for similar datatypes. Can add or remove items easily.
 <ul>
     <li>sort vs. sorted. <br>
         sort is a method. It sorts the list (the original data structure).<br><br> 
-        <code>
-           t = ['b', 'k', 'a', 'z', 'e'] <br>
-           t.sort() <br>
-           print(t) <br>
-        </code>
+
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080">#</span>
+<span style="color: #cccccc">t</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">[</span><span style="color: #cd0000">&#39;b&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;k&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;a&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;z&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;e&#39;</span><span style="color: #cccccc">]</span> 
+<span style="color: #cccccc">t</span><span style="color: #3399cc">.</span><span style="color: #cccccc">sort()</span> 
+<span style="color: #cd00cd">print</span><span style="color: #cccccc">(t)</span> 
+<span style="color: #000080">#</span>
+</pre></div>
+
+
+
 	<br>
+
 	The code above sorts the list 't' in place. The list is changed forever. Sorted is different. It is a function. It returns a sorted list. Here's an example.<br><br>
 
-       <code>
-          t1 = ['b', 'k', 'a', 'z', 'e'] <br>
-          t2 = sorted(t1) <br>
-          print(t2) <br>
-          print(t1) <br>
-       </code>
+<br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080">#</span>
+<span style="color: #cccccc">t1</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">[</span><span style="color: #cd0000">&#39;b&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;k&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;a&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;z&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;e&#39;</span><span style="color: #cccccc">]</span> 
+<span style="color: #cccccc">t2</span> <span style="color: #3399cc">=</span> <span style="color: #cd00cd">sorted</span><span style="color: #cccccc">(t1)</span> 
+<span style="color: #cd00cd">print</span><span style="color: #cccccc">(t1)</span> 
+<span style="color: #cd00cd">print</span><span style="color: #cccccc">(t2)</span>
+<span style="color: #000080">#</span>
+</pre></div>
+
+
+
        <br>
        The list t1 in the above example remains unchanged. 
     </li>
@@ -91,10 +102,16 @@ Used for similar datatypes. Can add or remove items easily.
 Used for storing key-value pairs.
 <ul>
     <li> The basics. You create a key-value pair using this syntax.<br><br>
-          <code>
-              d = ["key1" : "value1", "key2" : "value2"]<br>
-          </code>
     </li>
+
+<br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080">#</span>
+<span style="color: #cccccc">d</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">[</span><span style="color: #cd0000">&quot;key1&quot;</span> <span style="color: #cccccc">:</span> <span style="color: #cd0000">&quot;value1&quot;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&quot;key2&quot;</span> <span style="color: #cccccc">:</span> <span style="color: #cd0000">&quot;value2&quot;</span><span style="color: #cccccc">]</span>
+<span style="color: #000080">#</span>
+</pre></div>
+
+
+
 </ul>
 
 <br><br>
@@ -106,39 +123,62 @@ A library that makes it easy to read, write data stored in different file format
 A great place to learn the basics of Pandas is <a href="https://www.youtube.com/watch?v=_Eb0utIRdkw" target="_blank">The gentle introduction to pandas by Rob Mulla</a>.
 The two main structures that pandas works on are called Series and Dataframes. 
 <br><br>
-<code>
-# Example of initializing a Series<br>
-import pandas as pd    <br>
+Example of initializing a Series<br>
 <br>
-pups = ['pitbull', 'german shepard', 'french bulldog']    <br>
-myseries = pd.Series(pups)    <br>
-print(myseries)    <br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080">#</span>
+<span style="color: #cd00cd">import</span> <span style="color: #cccccc">pandas</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">pd</span>    
+
+<span style="color: #cccccc">pups</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">[</span><span style="color: #cd0000">&#39;pitbull&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;german shepard&#39;</span><span style="color: #cccccc">,</span><span style="color: #cd0000">&#39;french bulldog&#39;</span><span style="color: #cccccc">]</span>   
+<span style="color: #cccccc">myseries</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">pd</span><span style="color: #3399cc">.</span><span style="color: #cccccc">Series(pups)</span>  
+<span style="color: #cd00cd">print</span><span style="color: #cccccc">(myseries)</span> 
+<span style="color: #000080">#</span>
+</pre></div>
+
+
+
 <br>
-# output    <br>
-0    pitbull    <br>
-1    german shepard    <br>
-2    french bulldog    <br>
-dtype: object    <br>
+Output<br>    
 <br>
 
-</code>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #3399cc">.</span>
+<span style="color: #cccccc">0</span>    <span style="color: #cccccc">pitbull</span>    
+<span style="color: #cccccc">1</span>    <span style="color: #cccccc">german</span> <span style="color: #cccccc">shepard</span>   
+<span style="color: #cccccc">2</span>    <span style="color: #cccccc">french</span> <span style="color: #cccccc">bulldog</span>   
+<span style="color: #cccccc">dtype</span><span style="color: #3399cc">:</span> <span style="color: #cccccc">object</span>   
+<span style="color: #3399cc">.</span>
+</pre></div>
+
+
+<br>
+
 
 
 <br><br>
-<code>
-#Example of initializing a Dataframe <br>
-import pandas as pd <br>
+Example of initializing a Dataframe <br>
 <br>
-pups = [('tyson', 'pitbull',72), ('tommy', 'labrador', 2)]     <br>
-myseries = pd.DataFrame(pups, columns=['Name', 'Breed', 'Age'])   <br>
-print(myseries)    <br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080">#</span>
+<span style="color: #cd00cd">import</span> <span style="color: #cccccc">pandas</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">pd</span> 
+
+<span style="color: #cccccc">pups</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">[(</span><span style="color: #cd0000">&#39;tyson&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;pitbull&#39;</span><span style="color: #cccccc">,</span><span style="color: #cd00cd">72</span><span style="color: #cccccc">),</span> <span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;tommy&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;labrador&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd00cd">2</span><span style="color: #cccccc">)]</span>     
+<span style="color: #cccccc">myseries</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">pd</span><span style="color: #3399cc">.</span><span style="color: #cccccc">DataFrame(pups,</span> <span style="color: #cccccc">columns</span><span style="color: #3399cc">=</span><span style="color: #cccccc">[</span><span style="color: #cd0000">&#39;Name&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;Breed&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cd0000">&#39;Age&#39;</span><span style="color: #cccccc">])</span>   
+<span style="color: #cd00cd">print</span><span style="color: #cccccc">(myseries)</span> 
+<span style="color: #000080">#</span>
+</pre></div>
+
 <br>
-# output <br>
-    Name     Breed  Age    <br>
-0  tyson   pitbull   72    <br>
-1  tommy  labrador    2    <br>
+Output <br>
 <br>
-</code>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #3399cc">.</span>
+    <span style="color: #cccccc">Name</span>     <span style="color: #cccccc">Breed</span>  <span style="color: #cccccc">Age</span>    
+<span style="color: #cccccc">0</span>  <span style="color: #cccccc">tyson</span>   <span style="color: #cccccc">pitbull</span>   <span style="color: #cccccc">72</span>    
+<span style="color: #cccccc">1</span>  <span style="color: #cccccc">tommy</span>  <span style="color: #cccccc">labrador</span>    <span style="color: #cccccc">2</span> 
+<span style="color: #3399cc">.</span>
+</pre></div>
+
+
+
+
+<br>
 <br> 
 
 The column name argument is optional. Defaults to 0,1,2.. if not specified. The first column (numbers) is the index automatically assigned by the Series/Dataframe.
