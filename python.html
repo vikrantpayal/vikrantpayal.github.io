@@ -98,6 +98,53 @@ Used for storing key-value pairs.
 </ul>
 
 <br><br>
+
+
+<h3>Pandas</h3>
+<p>
+A library that makes it easy to read, write data stored in different file formats and manipulate it in bulk. This is a favorite for CSVs.
+A great place to learn the basics of Pandas is <a href="https://www.youtube.com/watch?v=_Eb0utIRdkw" target="_blank">The gentle introduction to pandas by Rob Mulla</a>.
+The two main structures that pandas works on are called Series and Dataframes. 
+<br><br>
+<code>
+# Example of initializing a Series<br>
+import pandas as pd    <br>
+<br>
+pups = ['pitbull', 'german shepard', 'french bulldog']    <br>
+myseries = pd.Series(pups)    <br>
+print(myseries)    <br>
+<br>
+# output    <br>
+0    pitbull    <br>
+1    german shepard    <br>
+2    french bulldog    <br>
+dtype: object    <br>
+<br>
+
+</code>
+
+
+<br><br>
+<code>
+#Example of initializing a Dataframe <br>
+import pandas as pd <br>
+<br>
+pups = [('tyson', 'pitbull',72), ('tommy', 'labrador', 2)]     <br>
+myseries = pd.DataFrame(pups, columns=['Name', 'Breed', 'Age'])   <br>
+print(myseries)    <br>
+<br>
+# output <br>
+    Name     Breed  Age    <br>
+0  tyson   pitbull   72    <br>
+1  tommy  labrador    2    <br>
+<br>
+</code>
+<br> 
+
+The column name argument is optional. Defaults to 0,1,2.. if not specified. The first column (numbers) is the index automatically assigned by the Series/Dataframe.
+<br>
+</p>
+<br><br>
 </p>
 
 

@@ -28,7 +28,7 @@ article{
 a{
     text-decoration-style: dotted;
     text-decoration-thickness: 1px;
-    text-decoration-color: blue;
+    text-decoration-color: #42424E;
     color: white;
 }
 
@@ -71,7 +71,7 @@ text-align:left;
 }
 
 code{
-    font-size: 110%;
+    font-size: 90%;
     color: #8cff0a;
 }
 
