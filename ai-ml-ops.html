@@ -32,14 +32,14 @@ The high level process is:
 <h3>XGBoost model training and evaluation Example </h3>
 After you finish loading the dataframe, understanding the 'shape' 
 of the data and checking out the records, remove the outliers.
-<br>
-Then install and import xgboost
+<br><br>
+Then install and import xgboost:<br>
 <div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cccccc">pip</span> <span style="color: #cccccc">install</span> <span style="color: #cccccc">xgboost</span> 
 </pre></div>
 <div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cd00cd">import</span> <span style="color: #cccccc">xgboost</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">xgb</span>
 </pre></div>
-<br>
-Next, initialize and train the model using XGBClassifier.
+<br><br>
+Next, initialize and train the model using XGBClassifier.<br>
 <div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cccccc">xgb_classifier</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">xgb</span><span style="color: #3399cc">.</span><span style="color: #cccccc">XGBClassifier(</span>
 	<span style="color: #cccccc">objective</span><span style="color: #3399cc">=</span><span style="color: #cd0000">&#39;binary:logistic&#39;</span><span style="color: #cccccc">,</span> <span style="color: #cccccc">n_estimators</span><span style="color: #3399cc">=</span><span style="color: #cd00cd">100</span><span style="color: #cccccc">,</span>    <span style="color: #cccccc">max_depth</span><span style="color: #3399cc">=</span><span style="color: #cd00cd">3</span><span style="color: #cccccc">,max_depth</span><span style="color: #3399cc">=</span><span style="color: #cd00cd">3</span><span style="color: #cccccc">,</span> <span style="color: #cccccc">learning_rate</span><span style="color: #3399cc">=</span><span style="color: #cd00cd">0.1</span><span style="color: #cccccc">)</span>
 	</pre></div>
