@@ -79,4 +79,5 @@ menu{
     border-style: dashed;
     border-width: 1px;
     border-color: grey;
+    padding: 10px;
 }
