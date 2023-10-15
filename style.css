@@ -74,6 +74,10 @@ menu{
     padding: 10px;
 }
 
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+  }
+
 buttons_flex_container{
     display: flex;
     flex-wrap: nowrap;
