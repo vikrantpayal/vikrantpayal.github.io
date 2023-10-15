@@ -83,40 +83,29 @@ ul.no-bullets {
     flex-wrap: nowrap;
     position: fixed;
     bottom: 30px;
-    left: 50px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;    color: grey;
+    left: 1vw;
    
 }
 
-.buttons_flex_container :hover {
 
-    box-shadow: rgba(233, 233, 233, 0.16) 0px 1px 4px, rgb(125, 125, 125) 0px 0px 0px 3px;
-}
 home_button{
     padding-right: 10px;
     opacity: 0.4;
-  /*  position: fixed;
-    bottom: 30px;
-    left: 1vw;
-    color: lightgray;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    color: grey;
 }
 
 home_button:hover{
-
+    opacity: 0.9;
+    color: white;
 }
 
 top_button{
     padding-right: 10px;
     opacity: 0.4;
-   /* position: fixed;
-    bottom: 30px;
-    left: 60px;
-    color: lightgray;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    color: grey;
 }
 
-top_button: hover{
+top_button:hover{
     opacity: 0.9;
     color: white;
 }
