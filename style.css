@@ -82,8 +82,8 @@ ul.no-bullets {
     display: flex;
     flex-wrap: nowrap;
     position: fixed;
-    bottom: 0;
-    left: 30px;
+    bottom: 30px;
+    left: 50px;
     box-shadow: rgba(159, 158, 158, 0.35) 0px 5px 15px;
     color: grey;
     opacity: 0.4;
