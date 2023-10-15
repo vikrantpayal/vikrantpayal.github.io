@@ -80,38 +80,38 @@ ul.no-bullets {
   }
 
 .buttons_flex_container{
+    opacity: 0.9;
     display: flex;
     flex-wrap: nowrap;
     position: fixed;
     bottom: 30px;
     left: 11vw;
-
 }
 
 
 
 home_button{
     padding-right: 15px;
-    opacity: 0.4;
+  
     color: grey;
 
     font-size: 3em;
 }
 
 home_button:hover{
-    opacity: 0.9;
+
     color: white;
     box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
 }
 
 top_button{
-    opacity: 0.4;
+
     color: grey;
     font-size: 3em;
 }
 
 top_button:hover{
-    opacity: 0.9;
+
     color: white;
     box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
 }
