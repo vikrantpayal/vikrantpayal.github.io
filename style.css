@@ -76,14 +76,20 @@ menu{
 
 home_button{
     position: fixed;
-    top: 0px;
-    right: 100px;
+    bottom: 30px;
+    left: 30px;
+    color: lightgray;
+    border-style: outset;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 
 top_button{
     position: fixed;
-    top: 0px;
-    right: 60px;
+    bottom: 30px;
+    left: 60px;
     border: 1px white;
+    color: lightgray;
+    border-style: outset;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
