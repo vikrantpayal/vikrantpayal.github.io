@@ -78,14 +78,18 @@ ul.no-bullets {
     list-style-type: none; /* Remove bullets */
   }
 
-buttons_flex_container{
+.buttons_flex_container{
     display: flex;
     flex-wrap: nowrap;
     position: fixed;
     bottom: 0;
     left: 30px;
     box-shadow: rgba(159, 158, 158, 0.35) 0px 5px 15px;
-    opacity: 0.6;
+    opacity: 0.4;
+}
+
+.buttons_flex_container :hover {
+    opacity: 0.9;
 }
 home_button{
     padding-right: 10px;
