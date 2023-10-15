@@ -78,11 +78,12 @@ home_button{
     position: fixed;
     top: 0px;
     right: 100px;
-
 }
+
 
 top_button{
     position: fixed;
     top: 0px;
     right: 60px;
+    border: 1px white;
 }
