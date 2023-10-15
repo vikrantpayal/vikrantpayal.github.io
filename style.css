@@ -95,6 +95,7 @@ home_button{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     border: 1px grey;
     border-radius: 3px;
+    font-size: 3em;
 }
 
 home_button:hover{
@@ -107,7 +108,7 @@ top_button{
     opacity: 0.4;
     color: grey;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-
+    font-size: 3em;
 }
 
 top_button:hover{
