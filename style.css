@@ -84,12 +84,10 @@ ul.no-bullets {
     position: fixed;
     bottom: 30px;
     left: 11vw;
-    background-color: grey;
+
 }
 
-.buttons_flex_container:hover{
-    background-color: lightgrey;
-}
+
 
 home_button{
     padding-right: 15px;
