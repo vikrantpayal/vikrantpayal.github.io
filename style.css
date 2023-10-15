@@ -82,13 +82,13 @@ buttons_flex_container{
     display: flex;
     flex-wrap: nowrap;
     position: fixed;
-    bottom: 30px;
+    bottom: 0;
     left: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 home_button{
-    padding-right: 5px;
+    padding-right: 10px;
   /*  position: fixed;
     bottom: 30px;
     left: 30px;
@@ -98,7 +98,7 @@ home_button{
 
 
 top_button{
-    padding-right: 5px;
+    padding-right: 10px;
    /* position: fixed;
     bottom: 30px;
     left: 60px;
