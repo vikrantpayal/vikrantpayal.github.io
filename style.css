@@ -85,11 +85,13 @@ ul.no-bullets {
     bottom: 0;
     left: 30px;
     box-shadow: rgba(159, 158, 158, 0.35) 0px 5px 15px;
+    color: grey;
     opacity: 0.4;
 }
 
 .buttons_flex_container :hover {
     opacity: 0.9;
+    color: white;
 }
 home_button{
     padding-right: 10px;
