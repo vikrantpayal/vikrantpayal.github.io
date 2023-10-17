@@ -73,6 +73,7 @@ menu{
     border-color: grey;
     padding: 10px;
     word-wrap: break-word;
+    padding: 10px;
 }
 
 ul.no-bullets {
