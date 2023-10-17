@@ -88,8 +88,7 @@ ul.no-bullets {
     position: fixed;
     bottom: 30px;
     left: 11vw;
-    height: 5ew;
-    font-size: 300%;
+    margin: auto;
 }
 
 
@@ -97,6 +96,7 @@ ul.no-bullets {
 home_button.a{
     padding-right: 15px;
     color: darkgrey;
+    font-size: large;
 }
 
 home_button:hover{
