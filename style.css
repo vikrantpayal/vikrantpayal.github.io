@@ -97,7 +97,6 @@ ul.no-bullets {
 home_button.a{
     padding-right: 15px;
     color: darkgrey;
-    font-size: 5em;
 }
 
 home_button:hover{
@@ -107,7 +106,6 @@ home_button:hover{
 
 top_button.a{
     color: darkgrey;
-    font-size: 5em;
 }
 
 top_button:hover{
