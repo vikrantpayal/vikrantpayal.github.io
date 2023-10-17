@@ -88,6 +88,8 @@ ul.no-bullets {
     position: fixed;
     bottom: 30px;
     left: 11vw;
+    height: 5ew;
+    font-size: large;
 }
 
 
