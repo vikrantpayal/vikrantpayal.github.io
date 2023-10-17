@@ -81,7 +81,7 @@ ul.no-bullets {
   }
 
 .buttons_flex_container{
-    opacity: 0.9;
+    opacity: 0.6;
     background-color: black;
     display: flex;
     flex-wrap: nowrap;
