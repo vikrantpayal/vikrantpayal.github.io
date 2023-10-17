@@ -89,6 +89,8 @@ ul.no-bullets {
     bottom: 30px;
     left: 11vw;
     margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 
@@ -96,7 +98,7 @@ ul.no-bullets {
 home_button.a{
     padding-right: 15px;
     color: darkgrey;
-    font-size: 25px;
+    font-size: 100px;
 }
 
 home_button:hover{
