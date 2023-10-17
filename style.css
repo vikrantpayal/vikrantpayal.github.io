@@ -92,7 +92,7 @@ ul.no-bullets {
 
 
 
-home_button{
+home_button,a{
     padding-right: 15px;
     color: darkgrey;
     font-size: 5em;
