@@ -87,18 +87,19 @@ ul.no-bullets {
     flex-wrap: nowrap;
     position: fixed;
     bottom: 30px;
-    left: 11vw;
+    left: 15vw;
     margin: auto;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-
+home_button{
+    font-size:large;
+}
 
 home_button.a{
     padding-right: 15px;
     color: darkgrey;
-    font-size: 100px;
 }
 
 home_button:hover{
