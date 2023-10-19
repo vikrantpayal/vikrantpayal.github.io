@@ -81,10 +81,10 @@ ul.no-bullets {
   }
 
 .buttons_flex_container{
-    opacity: 0.65;
+    background-color: blue;
     display: flex;
     flex-wrap: wrap;
-    width: 6vw;
+    width: 10vw;
     height: 5vh;
     text-align: center;
     vertical-align: middle;
@@ -95,34 +95,20 @@ ul.no-bullets {
     font-size: larger;
 }
 
-.buttons_flex_container:hover{
-    opacity: 0.8;
-}
 
 .buttons_flex_container > div{
-  margin-right: auto;
-  margin-left: auto; 
-  padding: 5px;
-  height: 4vh;
+  background-color: #f1f1f1;
+  padding: 2vw;
 }
 
 home_button{
-    opacity: 0.65;
     position: relative;
     top: 1vh;
 }
 
-home_button:hover{
-    opacity:1;
 
-}
 top_button{
-    opacity: 0.65;
     position: relative;
     top: 1vh;
     padding: 10px;
-}
-
-top_button:hover{
-   opacity:1;
 }
