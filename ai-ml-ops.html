@@ -148,10 +148,18 @@ Hyperparameters <br><br>
 <h2>
 	Models, practice
 </h2>
-
+<h3>ML for Structured Data</h3>
 Popular Gradient Boost model: XGBoost<br>
-Popular CNN models: <br>
-
+<h3>Computer vision, image/video processing</h3>
+<h4>Basics of image processing</h4>
+To convert an image to an array use TensorFlow's image processing library:
+<br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cd00cd">import</span> <span style="color: #cccccc">tensorflow</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">tf</span>
+	<span style="color: #cccccc">image_path</span> <span style="color: #3399cc">=</span> <span style="color: #cd0000">&quot;/image_name.png&quot;</span>
+	<span style="color: #cccccc">image</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">tf</span><span style="color: #3399cc">.</span><span style="color: #cccccc">keras</span><span style="color: #3399cc">.</span><span style="color: #cccccc">preprocessing</span><span style="color: #3399cc">.</span><span style="color: #cccccc">image</span><span style="color: #3399cc">.</span><span style="color: #cccccc">load_img(image_path)</span>
+	<span style="color: #cccccc">image</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">tf</span><span style="color: #3399cc">.</span><span style="color: #cccccc">keras</span><span style="color: #3399cc">.</span><span style="color: #cccccc">preprocessing</span><span style="color: #3399cc">.</span><span style="color: #cccccc">image</span><span style="color: #3399cc">.</span><span style="color: #cccccc">img_to_array(image)</span>
+	</pre></div>
+	
 <h2>
 	Thumb-rules, good practices, tips, recommendations
 </h2>
