@@ -153,6 +153,30 @@ Popular Gradient Boost model: XGBoost<br>
 <h3>Computer vision, image/video processing</h3>
 <h4>Basics of image processing</h4>
 To convert an image to an array use TensorFlow's image processing library:
+<h4>Steps to consume an image and 'visualize' it using tensorflow and matplotlib</h4>
+<br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #000080"># visualize an image</span>
+	<span style="color: #cd00cd">import</span> <span style="color: #cccccc">tensorflow</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">tf</span>
+	<span style="color: #cd00cd">import</span> <span style="color: #cccccc">matplotlib.pyplot</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">plt</span>
+	
+	<span style="color: #000080"># load</span>
+	<span style="color: #cccccc">img_path</span> <span style="color: #3399cc">=</span> <span style="color: #cd0000">&#39;/img.png&#39;</span>
+	<span style="color: #cccccc">img</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">tf</span><span style="color: #3399cc">.</span><span style="color: #cccccc">keras</span><span style="color: #3399cc">.</span><span style="color: #cccccc">preprocessing</span><span style="color: #3399cc">.</span><span style="color: #cccccc">image</span><span style="color: #3399cc">.</span><span style="color: #cccccc">load_img(img_path)</span>
+	<span style="color: #cccccc">img</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">tf</span><span style="color: #3399cc">.</span><span style="color: #cccccc">keras</span><span style="color: #3399cc">.</span><span style="color: #cccccc">preprocessing</span><span style="color: #3399cc">.</span><span style="color: #cccccc">image</span><span style="color: #3399cc">.</span><span style="color: #cccccc">img_to_array(img)</span>
+	
+	<span style="color: #000080"># structure the visual</span>
+	<span style="color: #cccccc">plt</span><span style="color: #3399cc">.</span><span style="color: #cccccc">figure(figsize</span><span style="color: #3399cc">=</span><span style="color: #cccccc">(</span><span style="color: #cd00cd">10</span><span style="color: #cccccc">,</span><span style="color: #cd00cd">10</span><span style="color: #cccccc">))</span>
+	
+	<span style="color: #000080"># prep display</span>
+	<span style="color: #cccccc">plt</span><span style="color: #3399cc">.</span><span style="color: #cccccc">subplot(</span><span style="color: #cd00cd">1</span><span style="color: #cccccc">,</span><span style="color: #cd00cd">2</span><span style="color: #cccccc">,</span><span style="color: #cd00cd">1</span><span style="color: #cccccc">)</span>
+	<span style="color: #cccccc">plt</span><span style="color: #3399cc">.</span><span style="color: #cccccc">title(</span><span style="color: #cd0000">&quot;The Image&quot;</span><span style="color: #cccccc">)</span>
+	<span style="color: #cccccc">plt</span><span style="color: #3399cc">.</span><span style="color: #cccccc">imshow(tf</span><span style="color: #3399cc">.</span><span style="color: #cccccc">keras</span><span style="color: #3399cc">.</span><span style="color: #cccccc">preprocessing</span><span style="color: #3399cc">.</span><span style="color: #cccccc">image</span><span style="color: #3399cc">.</span><span style="color: #cccccc">array_to_img(image))</span>
+	<span style="color: #cccccc">plt</span><span style="color: #3399cc">.</span><span style="color: #cccccc">axis(</span><span style="color: #cd0000">&quot;off&quot;</span><span style="color: #cccccc">)</span>
+	
+	<span style="color: #000080"># now show</span>
+	<span style="color: #cccccc">plt</span><span style="color: #3399cc">.</span><span style="color: #cccccc">show</span>
+	</pre></div>
+	
 <br>
 <div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cd00cd">import</span> <span style="color: #cccccc">tensorflow</span> <span style="color: #cdcd00">as</span> <span style="color: #cccccc">tf</span>
 	<span style="color: #cccccc">image_path</span> <span style="color: #3399cc">=</span> <span style="color: #cd0000">&quot;/image_name.png&quot;</span>
