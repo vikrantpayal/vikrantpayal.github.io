@@ -71,6 +71,7 @@
 			<li><a href="#basic-concepts">Basic concepts</a></li>
 			
 			<li><a href="#ml-terminology">Common terminology in ML (aka how to sound like an AI ML expert)</a></li>
+			<li><a href="#math_for_aiml">Math concepts relevant to AIML</a></li>
 			<li><a href="#top-priority">Top priority areas in ML</a></li>
 		</ul>
 	</nav>
@@ -113,6 +114,13 @@ There can be AI outside the Data Science umbrella, but most applications of AI i
 		being fed to the ML model to help it predict something.</li>
 	<li>Target : The property being predicted. </li>
 	<li>Machine : This is the model being used to generate predictions</li>
+	<li>Random Variable : Unknown quantity that has to be determined (such as practice
+		to be predicted).</li>
+	<li> Continuous Random Variable : Unknown quantity, could be any value or number. 
+		(this term makes more sense when you understand Discrete Random Variable)
+	</li>
+	<li>Discrete Random Variable : Unknown quantity to be predicted, but it 
+		is one of a set of options, for example ages between 0-10, 10-20, 20-30. </li>
 	<li>Features with high correlation to target: The columns in the dataset that are most likely to affect the property being predicted. 
 		For example speed of vehicle might affect chances of it being in an accident.</li>
     <li>Training a model/learning a model: Training a model on a dataset </li>
@@ -125,6 +133,24 @@ There can be AI outside the Data Science umbrella, but most applications of AI i
 		of colors, shades, boundaries, objects that we absorb so easily when we see with our eyes. </li>
 </ul>
 
+<br><br>
+<h3 id="math_for_aiml">Math foundation for AI ML development </h3>
+Linear algebra and calculus help with the data science part of AI MLOps implementations. 
+An understanding of probability and statistics is useful for model implementation. For example, if you want to predict the probability of rain or likelyhood of reaching a place through dense traffic, you need to understand probability and stats. 
+Similarly if you want to predict the chances of a batsman scoring a century or being bowled out.
+
+<br><br>
+Basic math concepts and terms worth understanding before jumping into AI:
+<ul>
+<li>Mean, Average, Median, Mode, Quartiles.</li>
+<li>Data classification into deterministic variable, random variable, discrete values, discrete random variables and continuous random variables.</li>
+<li>Histograms, probability mass functions</li>
+<li>Variance, standard deviation</li>
+<li>Covariance and correlation</li>
+<li>Joins and intersections</li>
+<li>Sample space</li>
+<li>Probability Distribution Function (PDF), Probaility Mass Function (PMF)</li>
+</ul>
 <br><br>
 <h3 id="top-priority"> Top priority areas in ML</h3>
 XGBoost : for tabular data problems. <br>
@@ -250,23 +276,7 @@ Next, initialize and train the model using XGBClassifier:<br>
 <br>	
 
 <br>
-<h3>Math foundation for AI ML development </h3>
-Linear algebra and calculus help with the data science part of AI MLOps implementations. 
-An understanding of probability and statistics is useful for model implementation. For example, if you want to predict the probability of rain or likelyhood of reaching a place through dense traffic, you need to understand probability and stats. 
-Similarly if you want to predict the chances of a batsman scoring a century or being bowled out.
 
-<br><br>
-Basic math concepts and terms worth understanding before jumping into AI:
-<ul>
-<li>Mean,Average, Median, Mode, Quartiles.</li>
-<li>Data classification into deterministic variable, random variable, discrete values, discrete random variables and continuous random variables.</li>
-<li>Histograms, probability mass functions</li>
-<li>Variance, standard deviation</li>
-<li>Covariance and correlation</li>
-<li>Joins and intersections</li>
-<li>Sample space</li>
-<li>Probability Distribution Function (PDF), Probaility Mass Function (PMF)</li>
-</ul>
 
 Important terms:
 <br>
