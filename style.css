@@ -75,7 +75,6 @@ menu{
     border-color: grey;
     padding: 10px;
     word-wrap: break-word;
-    padding: 10px;
 }
 
 ul.no-bullets {
@@ -85,8 +84,8 @@ ul.no-bullets {
 .buttons_flex_container{
     opacity: 0.65;
     display: flex;
-    flex-wrap: wrap;
-    width: 5vw;
+    flex-wrap: nowrap;
+    width: 3vw;
     height: 5vh;
     text-align: center;
     vertical-align: middle;
