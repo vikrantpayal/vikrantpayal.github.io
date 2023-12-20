@@ -206,22 +206,22 @@ The standard representation of the matrix is <br><br>
 overflow:auto;width:auto;border:solid gray;
 border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cdcd00">True</span> <span style="color: #3399cc">+</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">+</span><span style="color: #cccccc">ve</span>
 <span style="color: #3399cc">------- + -----------</span>
-	<span style="color: #cdcd00">True</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span>
+<span style="color: #cdcd00">True</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span>
 	</pre></div>
 <br><br>
 To read the confusion matrix, use these definitions: <br><br>
-<ul>
-	<li> Specificity = TN / (TN + FP)
-	</li>
-	<ul><li>
-		<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"> <span style="color: #3399cc">..</span> <span style="color: #3399cc">|</span> <span style="color: #3399cc">/</span> 
-<span style="color: #3399cc">--------</span>
-<span style="color: #3399cc">//</span> <span style="color: #3399cc">|</span> <span style="color: #3399cc">..</span>
-</pre></div>
+True Positive: Model says true,  actual value is true. 
+False Positive: Model says true, actual value is false.
+False Negative: Model says false, actual value is True.
+True Negative: Model says false, actual value is false. 
 
-	</li></ul>
-</ul>
-	
+Sensitivity or Recall = tp / (tp + fn)    <br>
+False negative rate = fn / (tp + fn)    <br>
+Specificity = tn / (fp + tn)    <br>
+False positive rate = fp / (fp + tn)    <br>
+Precision = tp/(tp+fp)    <br>
+F1 Score = Harmonic mean of Recall and Precision    <br>
+<br><br>
 <h3>Computer vision, image/video processing</h3>
 <h4>Basics of image processing</h4>
 To convert an image to an array use TensorFlow's image processing library:
