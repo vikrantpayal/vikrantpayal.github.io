@@ -46,8 +46,9 @@
 				<a href="#models">
 					Models deep-dive, practice
 				</a>
+				Thumb-rules, good practices, tips, recommendations 
 			</li>
-			<li>
+			<li id="ThumbRule">
 				Thumb-rules, good practices, tips, recommendations
 			</li>
 			<li>
@@ -199,6 +200,13 @@ Hyperparameters <br><br>
 </h2>
 <h3>ML for Structured Data</h3>
 Popular Gradient Boost model: XGBoost<br>
+<h3>Reading the classification confusion matrix</h3>
+The standard representation of the matrix is <br>
+<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cdcd00">True</span> <span style="color: #3399cc">+</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">+</span><span style="color: #cccccc">ve</span>
+	<span style="color: #3399cc">---------------------</span>
+	<span style="color: #cdcd00">True</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span>
+	</pre></div>
+	
 <h3>Computer vision, image/video processing</h3>
 <h4>Basics of image processing</h4>
 To convert an image to an array use TensorFlow's image processing library:
