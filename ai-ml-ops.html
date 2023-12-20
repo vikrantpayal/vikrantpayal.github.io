@@ -202,10 +202,39 @@ Hyperparameters <br><br>
 Popular Gradient Boost model: XGBoost<br>
 <h3>Reading the classification confusion matrix</h3>
 The standard representation of the matrix is <br>
-<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cdcd00">True</span> <span style="color: #3399cc">+</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">+</span><span style="color: #cccccc">ve</span>
+<div style="background: #000000; 
+overflow:auto;width:auto;border:solid gray;
+border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+	<pre style="margin: 0; line-height: 125%">
+	<span style="color: #cdcd00">True</span> 
+	<span style="color: #3399cc">+</span>
+	<span style="color: #cccccc">ve</span> 
+	<span style="color: #3399cc">|</span> 
+	<span style="color: #cdcd00">False</span> 
+	<span style="color: #3399cc">+</span>
+	<span style="color: #cccccc">ve</span>
 	<span style="color: #3399cc">---------------------</span>
-	<span style="color: #cdcd00">True</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span> <span style="color: #3399cc">|</span> <span style="color: #cdcd00">False</span> <span style="color: #3399cc">-</span><span style="color: #cccccc">ve</span>
+	<span style="color: #cdcd00">True</span> 
+	<span style="color: #3399cc">-</span>
+	<span style="color: #cccccc">ve</span> 
+	<span style="color: #3399cc">|</span> 
+	<span style="color: #cdcd00">False</span> 
+	<span style="color: #3399cc">-</span>
+	<span style="color: #cccccc">ve</span>
 	</pre></div>
+<br>
+To read the confusion matrix, use these definitions: <br>
+<ul>
+	<li> Specificity = TN / (TN + FP)
+	</li>
+	<ul><li>
+		<div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"> <span style="color: #3399cc">..</span> <span style="color: #3399cc">|</span> <span style="color: #3399cc">/</span> 
+<span style="color: #3399cc">--------</span>
+<span style="color: #3399cc">//</span> <span style="color: #3399cc">|</span> <span style="color: #3399cc">..</span>
+</pre></div>
+
+	</li></ul>
+</ul>
 	
 <h3>Computer vision, image/video processing</h3>
 <h4>Basics of image processing</h4>
