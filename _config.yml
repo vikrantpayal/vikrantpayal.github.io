@@ -14,12 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Vikrant Payal # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Tech notes and thoughts # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Vikrant Payal Blog. 
+  Vikrant Payal's blog. Tech notes and thoughts..
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Vikrant Payal 
+  name: Vikrant Payal
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
