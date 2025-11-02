@@ -9,6 +9,7 @@ published: false
 ---
 
 # Ops is way more interesting than dev now!
+SRE's effect on Ops.
 
 ## Why is Ops intereesting?
 ### Ops was always interesting
