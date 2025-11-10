@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build vs. Buy AI"
+title: "AI: Build vs. Buy"
 category: 
   - strategy
 tags:
