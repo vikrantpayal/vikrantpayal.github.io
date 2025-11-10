@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My values at work
+title: "My values at work"
 tags:
 - culture
 - values

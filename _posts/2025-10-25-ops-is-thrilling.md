@@ -8,6 +8,7 @@ tags:
 published: false
 ---
 
+<!--
 # Ops is way more interesting than dev now!
 SRE's effect on Ops.
 
@@ -21,5 +22,5 @@ SRE's effect on Ops.
 ## Effect of AI on software development
 ### More chaos, more Ops
 ### Fighting AI with AI
-
+-->
 
