@@ -2,7 +2,7 @@
 layout: post
 title: "AI: Build vs. Buy"
 category: 
-  - strategy
+  - leadership
 tags:
   - tech
   - AI
