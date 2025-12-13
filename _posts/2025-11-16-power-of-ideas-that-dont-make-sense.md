@@ -9,7 +9,7 @@ tag:
 - design
 ---
 
-# Good talk : Sutherland
+## Good talk : Sutherland
 Rory Sutherland's talk on customer experience.. A very good resource to understand the perspective of the customer (or user) as compared to how an engineer sees a problem and solution.
 
 
