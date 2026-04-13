@@ -19,7 +19,7 @@ title: Vikrant Payal # the main title
 tagline: Tech notes and thoughts # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Vikrant Payal's blog. Tech notes and thoughts..
+  Vikrant Payal's blog. Tech notes and thoughts. Global economics and politics of tech. AI, genAI and it's various applications.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,14 +35,14 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Vikrant Payal
-  email: example@domain.com # change to your email address
+  email: contact@vikrantpayal.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/vikrantpayal # change to your Twitter homepage
     - https://github.com/vikrantpayal # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/vikrantpayal
 
 # Site Verification Settings
 webmaster_verifications:
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -102,7 +102,7 @@ avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/images/vikrant_headshot.jpeg # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
