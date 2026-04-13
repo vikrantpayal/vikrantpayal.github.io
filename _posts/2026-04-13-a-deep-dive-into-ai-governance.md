@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "A deep dive into AI governance"
+title: "A shallow dive into AI governance"
 tags:
 - AI 
 - AI Governance
 category:
-- Deep dives 
+- tech 
+- shallow dive
 ---
 
-Major aspects of AI governance to explore:
-
+#### Major aspects of AI governance to explore:
 * Data governance
 * Agents discovery and governance
 * AI cost governance
 
-
+#### Tools
+credo.ai : full governance suite  
+arthur.ai : Agent discovery  
 [wip]
