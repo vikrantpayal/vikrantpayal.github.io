@@ -1,2 +1,2 @@
 ---
-_All content owned by author. Not sponsored or supported by any organization_
+_All content owned by author. Copyright 2026. Not sponsored or supported by any organization_
