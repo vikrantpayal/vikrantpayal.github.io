@@ -10,9 +10,9 @@
 
 **Tunnel vision and perceptual narrowing.** Acute stress floods the body with adrenaline and cortisol, which narrows attention dramatically. People fixate on one goal (a specific exit, a life jacket) and become blind to alternatives. Fine motor skills degrade, and survivors often report being unable to buckle life vests or untie ropes. Time perception distorts, and memory of the event becomes fragmentary.
 
-**Irrational-seeming behaviors that are actually predictable.** People grab wallets, passports, and luggage while evacuating; the brain clings to routines and symbols of normal life. People also return to familiar routes (the stairway they came in by) rather than the nearest exit, a phenomenon well documented in fire evacuations too.
+**Irrational-seeming behaviors that are actually predictable.** People grab wallets, passports, and luggage while evacuating; the brain clings to routines and symbols of normal life. People also return to familiar routes (the stairway they came in by) rather than the nearest exit.
 
-**In the water, psychology keeps mattering.** Cold shock causes gasping and hyperventilation in the first minutes, and panic dramatically increases drowning risk. Beyond the physical, survivors in liferafts or the water show that will to live is a real variable: those with strong reasons to survive (children waiting at home, for instance) and those who take small purposeful actions (organizing, rationing, keeping routines) endure longer than those who withdraw into hopelessness. Studies of shipwreck survivors adrift for long periods show that giving up psychologically often precedes physical death.
+**In the water, psychology keeps mattering.** Cold shock causes gasping and hyperventilation in the first minutes, and panic dramatically increases drowning risk. Beyond the physical, survivors in liferafts or the water show that will to live is a real variable: those with strong reasons to survive (children waiting at home, for instance) and those who take small purposeful actions (*organizing, rationing, keeping routines*) endure longer than those who withdraw into hopelessness. Studies of shipwreck survivors adrift for long periods show that giving up psychologically often precedes physical death.
 
 
 Many tech companies are sinking. People are reacting exactly as they would in a ship sinking in the middle of the ocean.
