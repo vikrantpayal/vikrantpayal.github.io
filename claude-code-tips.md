@@ -5,4 +5,4 @@
 3. Subagents have their own context window and tools allow list. Use for 'side quests' or 'parallel tasks' that might clutter the main thread.
 4. Hooks = must run every time, no exceptions. Best for security.
 
-[Source](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more){target="_blank"}
+[Source](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)
