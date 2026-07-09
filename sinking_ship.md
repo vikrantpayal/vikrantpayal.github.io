@@ -22,6 +22,5 @@ When a ship starts sinking far from shore, human behavior follows some surprisin
 
 **In the water, psychology keeps mattering.** Cold shock causes gasping and hyperventilation in the first minutes, and panic dramatically increases drowning risk. Beyond the physical, survivors in liferafts or the water show that will to live is a real variable: those with strong reasons to survive (children waiting at home, for instance) and those who take small purposeful actions (organizing, rationing, keeping routines) endure longer than those who withdraw into hopelessness. Studies of shipwreck survivors adrift for long periods show that giving up psychologically often precedes physical death.
 
-**Why we're built this way.** Most of these responses made evolutionary sense in small-scale dangers. Freezing avoids predators, following the group usually leads to safety, and conserving energy in uncertainty is prudent. They fail specifically in modern engineered disasters where the correct response is fast, individual, counterintuitive action. That's why drills work: rehearsal installs a script, so when the brain freezes, there's something to run.
 
-The short version: expect denial, then freezing, then slow social herding, not screaming chaos. The people who survive are usually those who accepted reality quickly and acted while everyone else was still waiting for permission.
+Many tech companies are sinking. People are reacting exactly as they would in a ship sinking in the middle of the ocean.
