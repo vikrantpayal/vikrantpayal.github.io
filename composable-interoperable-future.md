@@ -1,3 +1,5 @@
+## A case for composable, interoperable, standards driven agents replacing buy-it-all XXL enterprise solutions.
+
 The enterprise solutions waters are muddy. 
 
 Many are slapping AI on their current offering. Some are focused on innovative accounting, so the entry barrier is low but the user gets trapped into paying higher later. 
