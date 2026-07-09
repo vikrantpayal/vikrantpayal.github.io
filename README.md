@@ -1,6 +1,9 @@
+### Industry
+- Thoughts on [Composable, interoperable agents replacing enterprise solutions](composable-interoperable-future.md)
+
 ### Tech
-- [Claude Code tips](claude-code-tips.md)
+- Notes on [Claude Code tips for building solutions](claude-code-tips.md)
 
 ### People
-- [How people behave on a ship sinking in the middle of the ocean](sinking_ship.md)
+- Thoughts on [How people behave on a ship sinking in the middle of the ocean](sinking_ship.md)
 
