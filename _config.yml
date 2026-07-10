@@ -1,3 +1,16 @@
----
-title: Vikrant Payal
----
+# Site Settings
+title: My Awesome Website
+description: A short summary of what my site is about.
+author: Your Name
+
+# Theme and URL Settings
+theme: minima
+remote_theme: jekyll/minima
+url: "https://github.io"
+baseurl: "/your-repository-name"
+
+# Navigation Links
+header_pages:
+  - index.md
+  - about.md
+  - contact.md
