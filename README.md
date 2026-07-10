@@ -1,3 +1,7 @@
+---
+layout: default
+title: Your Custom Tab Title
+---
 
 ### Industry
 - Thoughts on [Composable, interoperable agents replacing enterprise solutions](composable-interoperable-future.md)
