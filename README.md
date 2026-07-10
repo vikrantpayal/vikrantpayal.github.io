@@ -1,3 +1,6 @@
+---
+Vikrant Payal Blog
+---
 ### Industry
 - Thoughts on [Composable, interoperable agents replacing enterprise solutions](composable-interoperable-future.md)
 
