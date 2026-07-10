@@ -1,7 +1,4 @@
----
-layout: default
-title: Vikrant Payal
----
+
 
 ### Industry
 - Thoughts on [Composable, interoperable agents replacing enterprise solutions](composable-interoperable-future.md)
