@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your Custom Tab Title
+title: Vikrant Payal
 ---
 
 ### Industry
