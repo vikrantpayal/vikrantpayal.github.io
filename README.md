@@ -8,5 +8,5 @@
 
 ### People
 - Thoughts on [How to pick where you work next](how-to-pick-where-you-work-next)
-- Thoughts on [How people behave on a ship sinking in the middle of the ocean](sinking_ship.md)
+- Notes on [How people behave on a ship sinking in the middle of the ocean](sinking_ship.md)
 
