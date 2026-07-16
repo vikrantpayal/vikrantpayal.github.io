@@ -4,7 +4,7 @@ Notes on what makes for effective AI adoption in a large enterprise.
 - Innovation
 - Build vs. Buy 
 - Upskilling
-- How to pick use cases
+- Picking the right use cases
 - Infrastructure
 - Cost
 - ROI
@@ -14,4 +14,4 @@ Notes on what makes for effective AI adoption in a large enterprise.
 (evolving doc..)
 
 ---
-All content is author owned, not supported or sponsored by any organization. 
+<sup><i><grey>All content is author owned, not supported or sponsored by any organization. </grey></i></sup>
