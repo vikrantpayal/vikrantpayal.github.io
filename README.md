@@ -11,3 +11,5 @@
 - Thoughts on [How to pick where you work next](how-to-pick-where-you-work-next)
 - Notes on [How people behave on a ship sinking in the middle of the ocean](sinking_ship.md)
 
+<br>
+<sup><i><grey>All content owned by author. Not supported or sponsored by any organization.</grey></i></sup>
