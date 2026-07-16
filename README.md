@@ -2,6 +2,7 @@
 
 ### Industry
 - Thoughts on [Composable, interoperable agents replacing enterprise solutions](composable-interoperable-future.md)
+- Notes on [AI playbook for a large enterprise](ai-playbook.md)
 
 ### Tech
 - Notes on [Claude Code tips for building solutions](claude-code-tips.md)
