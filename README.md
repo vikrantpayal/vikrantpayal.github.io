@@ -6,6 +6,7 @@
 
 ### Tech
 - Notes on [Claude Code tips for building solutions](claude-code-tips.md)
+- Notes on [`git bisect` for triaging bugs in AI generated code](triage-ai-generated-code.md)
 
 ### People
 - Thoughts on [How to pick where you work next](how-to-pick-where-you-work-next)
